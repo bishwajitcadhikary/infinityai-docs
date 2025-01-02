@@ -1,0 +1,14 @@
+# File/Folder Permissions
+
+If you are facing any issues related to file/folder permissions, you can follow the below steps to fix them.
+
+## Solution
+If you are using a Linux server, you will need to make sure that the files and folders are set to the correct permissions. The following is a list of the permissions that you will need to set:
+
+## Directories
+```bash
+cd /path/to/public_html # Replace /path/to/public_html with the path to your public_html directory
+chmod -R 775 storage/logs
+chmod -R 775 storage/framework
+chmod -R 775 bootstrap/cache
+```
