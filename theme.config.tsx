@@ -13,13 +13,19 @@ const config: DocsThemeConfig = {
   project: {
     icon: (
         <>
-          <img src="/images/codecanyon-logo.png" alt="logo" width={50} />
+          <img src="/images/wrap-bootstrap.png" alt="logo" width={50} />
         </>
     ),
-    link: 'https://kindigi.com',
+    link: 'https://wrapbootstrap.com/user/kindigi',
   },
   chat: {
-    link: 'https://discord.com',
+      icon: (
+          <>
+              <img src="/images/kindigi-light.png" alt="chat" width={50} className={"icon-dark"} />
+              <img src="/images/kindigi-dark.png" alt="chat" width={50} className={"icon-light"} />
+          </>
+      ),
+    link: 'https://kindigi.com',
   },
   docsRepositoryBase: 'https://github.com/bishwajitcadhikary/infinityai-docs/tree/main/',
   head: (
@@ -29,7 +35,7 @@ const config: DocsThemeConfig = {
         <meta property="og:title" content="InfinityAI - AI Content Writer Tools & Image Generator (SaaS)" />
         <meta property="og:description" content="🚀 Experience the Future of AI Content Creation! ✨ InfinityAI brings you cutting-edge AI tools like an advanced Content Writer, Image Generator, Chatbots, Code Generation, Speech To Text, and Web Page Summarizer. Elevate your content and productivity today! 📝🎨💬" />
         <meta property="og:image" content="https://infinityai-docs.vercel.app/images/preview.png" />
-        <meta property="og:url" content="https://infinityai-docs.kindigi.net/" />
+        <meta property="og:url" content="https://infinityai-docs.kindigi.com/" />
         <meta property="og:type" content="website" />
         <meta property="fb:app_id" content="234635452287600" />
 
